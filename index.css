@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(78, 77, 77);
+    margin: 0;
+    color: blanchedalmond;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: rgb(112, 11, 4);
+    border: 5px groove black;
+    display: flex;
+    padding: 0;
+    height: 35rem;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    margin: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.title {
+    background-color: beige;
+    color: rgb(112, 11, 4);
+    border: 5px groove black;
+    border-radius: .5rem;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+label {
+    font-weight: bold;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-amount-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10%;
+}
+
+.number-input
+{
+    width: 2rem;
+}
+
+.password-display
+{
+    background-color: beige;
+    color: black;
+    padding: 20px;
+    border: 3px groove black;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: .5rem;
+    margin: 10%;
+}   
+
+.btn{
+   background-color: transparent;
+   border: 2px groove white;
+   padding: 1rem 6rem;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 1rem; 
+   margin-top: 2rem;
+}
+
+.btn:hover
+{
+    background-color: #F5F5DC85;
+}
