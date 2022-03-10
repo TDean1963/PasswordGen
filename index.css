@@ -9,10 +9,14 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.whole{
+    display: block;
+}
+
 .container {
     background-color: rgb(112, 11, 4);
     border: 5px groove black;
-    display: flex;
+    display: flex block;
     padding: 0;
     height: 35rem;
     border-radius: 10px;
@@ -51,7 +55,7 @@ label {
 
 .number-input
 {
-    width: 2rem;
+    width: 4rem;
 }
 
 .password-display
@@ -76,10 +80,11 @@ label {
    font-weight: bold;
    cursor: pointer;
    border-radius: 1rem; 
-   margin-top: 2rem;
+   margin-top: 1rem;
 }
 
 .btn:hover
 {
     background-color: #F5F5DC85;
 }
+
